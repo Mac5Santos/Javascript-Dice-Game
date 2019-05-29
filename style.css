@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+}
+#score{
+	font-family: 'Sigmar One', cursive;
+	color: white;
+	font-size: 20px;
+}
+#playarea{
+	font-family: 'Sigmar One', cursive;
+	color: white;
+	margin-top: 10%;
+	margin-left: 39%;
+	font-size: 30px;	
+}
+#die1{
+	width: 64px;
+  	height: 64px;
+  	background: url(dice.png) 0 128px;
+  	margin: 0 auto;
+}
+#die2{
+	width: 64px;
+  	height: 64px;
+  	background: url(dice.png) 0 64px;
+  	margin: 0 auto;
+}
+#p1group{
+	float: left;
+}
+#p2group{
+	float: left;
+	margin-left: 10px;
+}
+button{
+	font-family: 'Sigmar One', cursive;
+	color: white;
+	font-size: 20px;
+	margin-left: 46%;
+	background: red; 
+}	
